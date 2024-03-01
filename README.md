@@ -1,15 +1,15 @@
 <div align="center">
   <img src="https://avatars.githubusercontent.com/u/155160495?v=4" width="400">
 
-# @0-vortex/gh-release-test
+# @0-vortex/gh-release-test-action
 
 > [**semantic-release**](https://github.com/semantic-release/semantic-release) shareable config to publish to `npm` and/or `ghcr`.
 
 > now available as a [GitHub Marketplace action](https://github.com/marketplace/actions/tmcb-space-release)
 
-[![Commits](https://img.shields.io/github/commit-activity/w/0-vortex/gh-release-test?style=flat)](https://github.com/0-vortex/gh-release-test/pulse)
-[![Issues](https://img.shields.io/github/issues/0-vortex/gh-release-test.svg?style=flat)](https://github.com/0-vortex/gh-release-test/issues)
-[![Releases](https://img.shields.io/github/v/release/0-vortex/gh-release-test.svg?style=flat)](https://github.com/0-vortex/gh-release-test/releases)
+[![Commits](https://img.shields.io/github/commit-activity/w/0-vortex/gh-release-test-action?style=flat)](https://github.com/0-vortex/gh-release-test-action/pulse)
+[![Issues](https://img.shields.io/github/issues/0-vortex/gh-release-test-action.svg?style=flat)](https://github.com/0-vortex/gh-release-test-action/issues)
+[![Releases](https://img.shields.io/github/v/release/0-vortex/gh-release-test-action.svg?style=flat)](https://github.com/0-vortex/gh-release-test-action/releases)
 
 </div>
 
@@ -85,7 +85,7 @@ jobs:
 
       - name: "🚀 release"
         id: semantic-release
-        uses: docker://ghcr.io/0-vortex/gh-release-test:1.0.0
+        uses: docker://ghcr.io/0-vortex/gh-release-test-action:1.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
@@ -127,7 +127,7 @@ jobs:
 
       - name: "🚀 release"
         id: semantic-release
-        uses: 0-vortex/gh-release-test@v1
+        uses: 0-vortex/gh-release-test-action@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

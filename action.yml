@@ -1,6 +1,6 @@
-name: '@0-vortex/gh-release-test'
+name: '@0-vortex/gh-release-test-action'
 author: '0-vortex'
-description: 'Run 0-vortex/gh-release-test on a repo'
+description: 'Run 0-vortex/gh-release-test-action on a repo'
 outputs:
   release-tag:
     description: 'The tag that was released on success'
@@ -11,5 +11,5 @@ branding:
   color: 'yellow'
 runs:
   using: 'docker'
-  image: 'docker://ghcr.io/0-vortex/gh-release-test:1.1.0'
+  image: 'docker://ghcr.io/0-vortex/gh-release-test-action:1.1.0'
 
