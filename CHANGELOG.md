@@ -1,3 +1,17 @@
+# 📦 0-vortex/gh-release-test-action changelog
+
+[![conventional commits](https://img.shields.io/badge/conventional%20commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
+[![semantic versioning](https://img.shields.io/badge/semantic%20versioning-2.0.0-green.svg)](https://semver.org)
+
+> All notable changes to this project will be documented in this file
+
+## [1.1.1](https://github.com/0-vortex/gh-release-test-action/compare/v1.1.0...v1.1.1) (2024-03-01)
+
+
+### 🐛 Bug Fixes
+
+* correct naming collision ([8d5a966](https://github.com/0-vortex/gh-release-test-action/commit/8d5a966a05c97074906028876030918089738602))
+
 # 📦 0-vortex/gh-release-test changelog
 
 [![conventional commits](https://img.shields.io/badge/conventional%20commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
