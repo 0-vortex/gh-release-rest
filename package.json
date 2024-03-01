@@ -1,5 +1,5 @@
 {
-  "name": "@0-vortex/gh-release-test",
+  "name": "gh-release-test",
   "description": "Node.js and docker github actions compatible semantic-release shareable config to publish to npmjs.com and ghcr.io",
   "version": "0.0.0-development",
   "license": "MIT",
